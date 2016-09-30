@@ -1,0 +1,499 @@
+Initialized native services in: /Users/administrator/.gradle/native
+Connected to daemon DaemonInfo{pid=12167, address=[626a3928-9958-4b7b-a396-0c2870959aa2 port:55334, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], idle=true, lastBusy=1475176725253, context=DefaultDaemonContext[uid=14026dac-72a0-4734-b9c5-f3ed80f0eb53,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home,daemonRegistryDir=/Users/administrator/.gradle/daemon,pid=12167,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]}. Dispatching request Build{id=80c30c9e-a51e-499e-a8a2-30c5e9664c66.1, currentDir=/Users/administrator/git/6-POC/ATB/atb-pizza-poc-server}.
+Received result org.gradle.launcher.daemon.protocol.BuildStarted@6d7fc27 from daemon DaemonInfo{pid=12167, address=[626a3928-9958-4b7b-a396-0c2870959aa2 port:55334, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], idle=true, lastBusy=1475176725253, context=DefaultDaemonContext[uid=14026dac-72a0-4734-b9c5-f3ed80f0eb53,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home,daemonRegistryDir=/Users/administrator/.gradle/daemon,pid=12167,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be starting).
+The client will now receive all logging from the daemon (pid: 12167). The daemon log file: /Users/administrator/.gradle/daemon/3.0/daemon-12167.out.log
+Starting 2nd build in daemon [uptime: 26.268 secs, performance: 89%, GC rate: 0.50/s, tenured heap usage: 4% of 716.2 MB]
+Executing build with daemon context: DefaultDaemonContext[uid=14026dac-72a0-4734-b9c5-f3ed80f0eb53,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home,daemonRegistryDir=/Users/administrator/.gradle/daemon,pid=12167,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]
+Starting Build
+Settings evaluated using settings file '/Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/settings.gradle'.
+Projects loaded. Root project using build file '/Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/build.gradle'.
+Included projects: [root project 'atb-pizza-poc-server', project ':backend']
+Parallel execution is an incubating feature.
+Evaluating root project 'atb-pizza-poc-server' using build file '/Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/build.gradle'.
+Evaluating project ':backend' using build file '/Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/backend/build.gradle'.
+Applying dependency management to configuration 'archives' in project 'backend'
+Applying dependency management to configuration 'compile' in project 'backend'
+Applying dependency management to configuration 'compileClasspath' in project 'backend'
+Applying dependency management to configuration 'compileOnly' in project 'backend'
+Applying dependency management to configuration 'default' in project 'backend'
+Applying dependency management to configuration 'runtime' in project 'backend'
+Applying dependency management to configuration 'testCompile' in project 'backend'
+Applying dependency management to configuration 'testCompileClasspath' in project 'backend'
+Applying dependency management to configuration 'testCompileOnly' in project 'backend'
+Applying dependency management to configuration 'testRuntime' in project 'backend'
+Applying dependency management to configuration 'dev' in project 'backend'
+Configuring agent
+Attaching agent: /Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework/springloaded/1.2.6.RELEASE/df364cd5f36ae9a01ac4e73ecd138daa735fbbc8/springloaded-1.2.6.RELEASE.jar
+All projects evaluated.
+Selected primary task 'clean' from project :
+Selected primary task 'runAll' from project :
+Tasks to be executed: [task ':backend:clean', task ':backend:compileJava', task ':backend:processResources', task ':backend:classes', task ':backend:findMainClass', task ':backend:bootRun', task ':backend:runAll']
+In-memory cache of /Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/.gradle/3.0/taskArtifacts/fileHashes.bin: Size{124}, CacheStats{hitCount=0, missCount=124, loadSuccessCount=0, loadExceptionCount=0, totalLoadTime=0, evictionCount=0}
+In-memory cache of /Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/.gradle/3.0/taskArtifacts/treeSnapshots.bin: Size{0}, CacheStats{hitCount=0, missCount=0, loadSuccessCount=0, loadExceptionCount=0, totalLoadTime=0, evictionCount=0}
+In-memory cache of /Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/.gradle/3.0/taskArtifacts/treeSnapshotUsage.bin: Size{0}, CacheStats{hitCount=0, missCount=0, loadSuccessCount=0, loadExceptionCount=0, totalLoadTime=0, evictionCount=0}
+In-memory cache of /Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/.gradle/3.0/taskArtifacts/fileSnapshotsToTreeSnapshotsIndex.bin: Size{16}, CacheStats{hitCount=0, missCount=16, loadSuccessCount=0, loadExceptionCount=0, totalLoadTime=0, evictionCount=0}
+In-memory cache of /Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/.gradle/3.0/taskArtifacts/fileSnapshots.bin: Size{19}, CacheStats{hitCount=0, missCount=3, loadSuccessCount=0, loadExceptionCount=0, totalLoadTime=0, evictionCount=0}
+In-memory cache of /Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/.gradle/3.0/taskArtifacts/taskArtifacts.bin: Size{2}, CacheStats{hitCount=0, missCount=2, loadSuccessCount=0, loadExceptionCount=0, totalLoadTime=0, evictionCount=0}
+Using 8 parallel executor threads
+:backend:clean (Thread[Task worker,5,main]) started.
+:backend:clean
+Executing task ':backend:clean' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+:backend:clean (Thread[Task worker,5,main]) completed. Took 0.006 secs.
+:backend:compileJava (Thread[Task worker Thread 2,5,main]) started.
+:backend:compileJava
+Resolving dependency management for configuration 'compileClasspath' of project 'backend'
+Resolved versions: {org.springframework.boot:spring-boot-starter-parent=1.4.1.RELEASE, org.flywaydb:flyway-core=4.0.3, org.springframework.boot:spring-boot-starter-jdbc=1.4.1.RELEASE, org.springframework.boot:spring-boot-starter-data-jpa=1.4.1.RELEASE, com.google.code.gson:gson=2.7, org.apache.commons:commons-lang3=3.4, org.springframework.cloud:spring-cloud-cloudfoundry-connector=1.2.3.RELEASE, org.springframework.cloud:spring-cloud-spring-service-connector=1.2.3.RELEASE}
+Using version '1.4.1.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-parent:1.4.1.RELEASE'
+Using version '4.0.3' for dependency 'org.flywaydb:flyway-core:4.0.3'
+Using version '1.4.1.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-jdbc:1.4.1.RELEASE'
+Using version '1.4.1.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-data-jpa:1.4.1.RELEASE'
+Resolving dependency management for configuration 'compileOnly' of project 'backend'
+Resolved versions: {org.springframework.boot:spring-boot-starter-parent=1.4.1.RELEASE, org.flywaydb:flyway-core=4.0.3, org.springframework.boot:spring-boot-starter-jdbc=1.4.1.RELEASE, org.springframework.boot:spring-boot-starter-data-jpa=1.4.1.RELEASE, com.google.code.gson:gson=2.7, org.apache.commons:commons-lang3=3.4, org.springframework.cloud:spring-cloud-cloudfoundry-connector=1.2.3.RELEASE, org.springframework.cloud:spring-cloud-spring-service-connector=1.2.3.RELEASE}
+Resolving dependency management for configuration 'compile' of project 'backend'
+Resolved versions: {org.springframework.boot:spring-boot-starter-parent=1.4.1.RELEASE, org.flywaydb:flyway-core=4.0.3, org.springframework.boot:spring-boot-starter-jdbc=1.4.1.RELEASE, org.springframework.boot:spring-boot-starter-data-jpa=1.4.1.RELEASE, com.google.code.gson:gson=2.7, org.apache.commons:commons-lang3=3.4, org.springframework.cloud:spring-cloud-cloudfoundry-connector=1.2.3.RELEASE, org.springframework.cloud:spring-cloud-spring-service-connector=1.2.3.RELEASE}
+Resolving global dependency management for project 'backend'
+Resolved versions: {org.springframework:spring-core=4.3.2.RELEASE, org.springframework.boot:spring-boot=1.4.0.RELEASE, org.springframework.boot:spring-boot-test=1.4.0.RELEASE, org.springframework.boot:spring-boot-test-autoconfigure=1.4.0.RELEASE, org.springframework.boot:spring-boot-actuator=1.4.0.RELEASE, org.springframework.boot:spring-boot-actuator-docs=1.4.0.RELEASE, org.springframework.boot:spring-boot-autoconfigure=1.4.0.RELEASE, org.springframework.boot:spring-boot-configuration-metadata=1.4.0.RELEASE, org.springframework.boot:spring-boot-configuration-processor=1.4.0.RELEASE, org.springframework.boot:spring-boot-devtools=1.4.0.RELEASE, org.springframework.boot:spring-boot-loader=1.4.0.RELEASE, org.springframework.boot:spring-boot-loader-tools=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-activemq=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-actuator=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-amqp=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-aop=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-artemis=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-batch=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-cache=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-cloud-connectors=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-data-cassandra=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-data-couchbase=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-data-elasticsearch=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-data-gemfire=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-data-jpa=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-data-mongodb=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-data-redis=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-redis=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-data-neo4j=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-data-rest=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-data-solr=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-freemarker=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-groovy-templates=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-hateoas=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-hornetq=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-integration=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-jdbc=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-jersey=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-jetty=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-jooq=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-jta-atomikos=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-jta-bitronix=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-undertow=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-log4j2=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-logging=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-mail=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-mobile=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-mustache=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-jta-narayana=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-remote-shell=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-security=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-social-facebook=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-social-linkedin=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-social-twitter=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-test=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-thymeleaf=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-tomcat=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-validation=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-velocity=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-web=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-websocket=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-web-services=1.4.0.RELEASE, org.springframework.boot:spring-boot-starter-ws=1.4.0.RELEASE, antlr:antlr=2.7.7, ch.qos.logback:logback-access=1.1.7, ch.qos.logback:logback-classic=1.1.7, ch.qos.logback:logback-core=1.1.7, com.atomikos:transactions-jdbc=3.9.3, com.atomikos:transactions-jms=3.9.3, com.atomikos:transactions-jta=3.9.3, com.couchbase.client:java-client=2.2.8, com.couchbase.client:couchbase-spring-cache=2.0.0, com.datastax.cassandra:cassandra-driver-core=2.1.9, com.datastax.cassandra:cassandra-driver-dse=2.1.9, com.datastax.cassandra:cassandra-driver-mapping=2.1.9, com.fasterxml:classmate=1.3.1, com.fasterxml.jackson.core:jackson-annotations=2.8.1, com.fasterxml.jackson.core:jackson-core=2.8.1, com.fasterxml.jackson.core:jackson-databind=2.8.1, com.fasterxml.jackson.dataformat:jackson-dataformat-cbor=2.8.1, com.fasterxml.jackson.dataformat:jackson-dataformat-csv=2.8.1, com.fasterxml.jackson.dataformat:jackson-dataformat-smile=2.8.1, com.fasterxml.jackson.dataformat:jackson-dataformat-xml=2.8.1, com.fasterxml.jackson.dataformat:jackson-dataformat-yaml=2.8.1, com.fasterxml.jackson.datatype:jackson-datatype-guava=2.8.1, com.fasterxml.jackson.datatype:jackson-datatype-hibernate4=2.8.1, com.fasterxml.jackson.datatype:jackson-datatype-hibernate5=2.8.1, com.fasterxml.jackson.datatype:jackson-datatype-jaxrs=2.8.1, com.fasterxml.jackson.datatype:jackson-datatype-jdk8=2.8.1, com.fasterxml.jackson.datatype:jackson-datatype-joda=2.8.1, com.fasterxml.jackson.datatype:jackson-datatype-json-org=2.8.1, com.fasterxml.jackson.datatype:jackson-datatype-jsr310=2.8.1, com.fasterxml.jackson.jaxrs:jackson-jaxrs-base=2.8.1, com.fasterxml.jackson.jaxrs:jackson-jaxrs-json-provider=2.8.1, com.fasterxml.jackson.module:jackson-module-jaxb-annotations=2.8.1, com.fasterxml.jackson.module:jackson-module-kotlin=2.8.1, com.fasterxml.jackson.module:jackson-module-parameter-names=2.8.1, com.gemstone.gemfire:gemfire=8.2.0, com.github.ben-manes.caffeine:caffeine=2.3.1, com.github.mxab.thymeleaf.extras:thymeleaf-extras-data-attribute=1.3, com.google.appengine:appengine-api-1.0-sdk=1.9.40, com.google.code.gson:gson=2.7, com.googlecode.json-simple:json-simple=1.1.1, com.h2database:h2=1.4.192, com.hazelcast:hazelcast=3.6.4, com.hazelcast:hazelcast-hibernate4=3.6.4, com.hazelcast:hazelcast-spring=3.6.4, com.jayway.jsonpath:json-path=2.2.0, com.jayway.jsonpath:json-path-assert=2.2.0, com.samskivert:jmustache=1.12, com.sendgrid:sendgrid-java=2.2.2, com.sun.mail:javax.mail=1.5.5, com.timgroup:java-statsd-client=3.1.0, com.zaxxer:HikariCP=2.4.7, com.zaxxer:HikariCP-java6=2.3.13, commons-beanutils:commons-beanutils=1.9.2, commons-collections:commons-collections=3.2.2, commons-codec:commons-codec=1.10, commons-dbcp:commons-dbcp=1.4, commons-digester:commons-digester=2.1, commons-pool:commons-pool=1.6, de.flapdoodle.embed:de.flapdoodle.embed.mongo=1.50.5, dom4j:dom4j=1.6.1, io.dropwizard.metrics:metrics-core=3.1.2, io.dropwizard.metrics:metrics-ganglia=3.1.2, io.dropwizard.metrics:metrics-graphite=3.1.2, io.dropwizard.metrics:metrics-servlets=3.1.2, io.projectreactor:reactor-bus=2.0.8.RELEASE, io.projectreactor:reactor-core=2.0.8.RELEASE, io.projectreactor:reactor-groovy=2.0.8.RELEASE, io.projectreactor:reactor-groovy-extensions=2.0.8.RELEASE, io.projectreactor:reactor-logback=2.0.8.RELEASE, io.projectreactor:reactor-net=2.0.8.RELEASE, io.projectreactor:reactor-stream=2.0.8.RELEASE, io.projectreactor.spring:reactor-spring-context=2.0.7.RELEASE, io.projectreactor.spring:reactor-spring-core=2.0.7.RELEASE, io.projectreactor.spring:reactor-spring-messaging=2.0.7.RELEASE, io.projectreactor.spring:reactor-spring-webmvc=2.0.7.RELEASE, io.searchbox:jest=2.0.3, io.undertow:undertow-core=1.3.23.Final, io.undertow:undertow-servlet=1.3.23.Final, io.undertow:undertow-websockets-jsr=1.3.23.Final, javax.cache:cache-api=1.0.0, javax.jms:jms-api=1.1-rev-1, javax.mail:javax.mail-api=1.5.5, javax.servlet:javax.servlet-api=3.1.0, javax.servlet:jstl=1.2, javax.transaction:javax.transaction-api=1.2, jaxen:jaxen=1.1.6, joda-time:joda-time=2.9.4, junit:junit=4.12, mysql:mysql-connector-java=5.1.39, net.java.dev.jna:jna=4.2.2, net.sf.ehcache:ehcache=2.10.2.2.21, net.sourceforge.htmlunit:htmlunit=2.21, net.sourceforge.jtds:jtds=1.3.1, net.sourceforge.nekohtml:nekohtml=1.9.22, nz.net.ultraq.thymeleaf:thymeleaf-layout-dialect=1.4.0, org.apache.activemq:activemq-amqp=5.13.4, org.apache.activemq:activemq-blueprint=5.13.4, org.apache.activemq:activemq-broker=5.13.4, org.apache.activemq:activemq-camel=5.13.4, org.apache.activemq:activemq-client=5.13.4, org.apache.activemq:activemq-console=5.13.4, org.apache.activemq:activemq-http=5.13.4, org.apache.activemq:activemq-jaas=5.13.4, org.apache.activemq:activemq-jdbc-store=5.13.4, org.apache.activemq:activemq-jms-pool=5.13.4, org.apache.activemq:activemq-kahadb-store=5.13.4, org.apache.activemq:activemq-karaf=5.13.4, org.apache.activemq:activemq-leveldb-store=5.13.4, org.apache.activemq:activemq-log4j-appender=5.13.4, org.apache.activemq:activemq-mqtt=5.13.4, org.apache.activemq:activemq-openwire-generator=5.13.4, org.apache.activemq:activemq-openwire-legacy=5.13.4, org.apache.activemq:activemq-osgi=5.13.4, org.apache.activemq:activemq-partition=5.13.4, org.apache.activemq:activemq-pool=5.13.4, org.apache.activemq:activemq-ra=5.13.4, org.apache.activemq:activemq-run=5.13.4, org.apache.activemq:activemq-runtime-config=5.13.4, org.apache.activemq:activemq-shiro=5.13.4, org.apache.activemq:activemq-spring=5.13.4, org.apache.activemq:activemq-stomp=5.13.4, org.apache.activemq:activemq-web=5.13.4, org.apache.activemq:artemis-amqp-protocol=1.3.0, org.apache.activemq:artemis-commons=1.3.0, org.apache.activemq:artemis-core-client=1.3.0, org.apache.activemq:artemis-jms-client=1.3.0, org.apache.activemq:artemis-jms-server=1.3.0, org.apache.activemq:artemis-journal=1.3.0, org.apache.activemq:artemis-native=1.3.0, org.apache.activemq:artemis-selector=1.3.0, org.apache.activemq:artemis-server=1.3.0, org.apache.activemq:artemis-service-extensions=1.3.0, org.apache.commons:commons-dbcp2=2.1.1, org.apache.commons:commons-pool2=2.4.2, org.apache.derby:derby=10.12.1.1, org.apache.httpcomponents:httpasyncclient=4.1.2, org.apache.httpcomponents:httpclient=4.5.2, org.apache.httpcomponents:httpcore=4.4.5, org.apache.httpcomponents:httpmime=4.5.2, org.apache.logging.log4j:log4j-api=2.6.2, org.apache.logging.log4j:log4j-core=2.6.2, org.apache.logging.log4j:log4j-slf4j-impl=2.6.2, org.apache.solr:solr-solrj=5.5.2, org.apache.tomcat.embed:tomcat-embed-core=8.5.4, org.apache.tomcat.embed:tomcat-embed-el=8.5.4, org.apache.tomcat.embed:tomcat-embed-jasper=8.5.4, org.apache.tomcat.embed:tomcat-embed-websocket=8.5.4, org.apache.tomcat:tomcat-jdbc=8.5.4, org.apache.tomcat:tomcat-jsp-api=8.5.4, org.apache.velocity:velocity=1.7, org.apache.velocity:velocity-tools=2.0, org.aspectj:aspectjrt=1.8.9, org.aspectj:aspectjtools=1.8.9, org.aspectj:aspectjweaver=1.8.9, org.assertj:assertj-core=2.5.0, org.codehaus.btm:btm=2.1.4, org.codehaus.groovy:groovy=2.4.7, org.codehaus.groovy:groovy-all=2.4.7, org.codehaus.groovy:groovy-ant=2.4.7, org.codehaus.groovy:groovy-bsf=2.4.7, org.codehaus.groovy:groovy-console=2.4.7, org.codehaus.groovy:groovy-docgenerator=2.4.7, org.codehaus.groovy:groovy-groovydoc=2.4.7, org.codehaus.groovy:groovy-groovysh=2.4.7, org.codehaus.groovy:groovy-jmx=2.4.7, org.codehaus.groovy:groovy-json=2.4.7, org.codehaus.groovy:groovy-jsr223=2.4.7, org.codehaus.groovy:groovy-nio=2.4.7, org.codehaus.groovy:groovy-servlet=2.4.7, org.codehaus.groovy:groovy-sql=2.4.7, org.codehaus.groovy:groovy-swing=2.4.7, org.codehaus.groovy:groovy-templates=2.4.7, org.codehaus.groovy:groovy-test=2.4.7, org.codehaus.groovy:groovy-testng=2.4.7, org.codehaus.groovy:groovy-xml=2.4.7, org.codehaus.janino:janino=2.7.8, org.crashub:crash.cli=1.3.2, org.crashub:crash.connectors.ssh=1.3.2, org.crashub:crash.connectors.telnet=1.3.2, org.crashub:crash.embed.spring=1.3.2, org.crashub:crash.plugins.cron=1.3.2, org.crashub:crash.plugins.mail=1.3.2, org.crashub:crash.shell=1.3.2, org.eclipse.jetty:jetty-annotations=9.3.11.v20160721, org.eclipse.jetty:jetty-client=9.3.11.v20160721, org.eclipse.jetty:jetty-continuation=9.3.11.v20160721, org.eclipse.jetty:jetty-deploy=9.3.11.v20160721, org.eclipse.jetty:jetty-http=9.3.11.v20160721, org.eclipse.jetty:jetty-io=9.3.11.v20160721, org.eclipse.jetty:apache-jstl=9.3.11.v20160721, org.eclipse.jetty:apache-jsp=9.3.11.v20160721, org.eclipse.jetty:jetty-jmx=9.3.11.v20160721, org.eclipse.jetty:jetty-plus=9.3.11.v20160721, org.eclipse.jetty:jetty-security=9.3.11.v20160721, org.eclipse.jetty:jetty-server=9.3.11.v20160721, org.eclipse.jetty:jetty-servlet=9.3.11.v20160721, org.eclipse.jetty:jetty-servlets=9.3.11.v20160721, org.eclipse.jetty:jetty-util=9.3.11.v20160721, org.eclipse.jetty:jetty-webapp=9.3.11.v20160721, org.eclipse.jetty:jetty-xml=9.3.11.v20160721, org.eclipse.jetty.orbit:javax.servlet.jsp=2.2.0.v201112011158, org.eclipse.jetty.websocket:javax-websocket-server-impl=9.3.11.v20160721, org.eclipse.jetty.websocket:websocket-client=9.3.11.v20160721, org.eclipse.jetty.websocket:websocket-server=9.3.11.v20160721, org.ehcache:ehcache=3.1.1, org.ehcache:ehcache-clustered=3.1.1, org.ehcache:ehcache-transactions=3.1.1, org.elasticsearch:elasticsearch=2.3.4, org.firebirdsql.jdbc:jaybird-jdk16=2.2.10, org.firebirdsql.jdbc:jaybird-jdk17=2.2.10, org.firebirdsql.jdbc:jaybird-jdk18=2.2.10, org.flywaydb:flyway-core=3.2.1, org.freemarker:freemarker=2.3.25-incubating, org.glassfish:javax.el=3.0.0, org.glassfish.jersey.containers:jersey-container-servlet=2.23.1, org.glassfish.jersey.containers:jersey-container-servlet-core=2.23.1, org.glassfish.jersey.core:jersey-server=2.23.1, org.glassfish.jersey.ext:jersey-bean-validation=2.23.1, org.glassfish.jersey.ext:jersey-spring3=2.23.1, org.glassfish.jersey.media:jersey-media-json-jackson=2.23.1, org.hamcrest:hamcrest-core=1.3, org.hamcrest:hamcrest-library=1.3, org.hibernate:hibernate-core=5.0.9.Final, org.hibernate:hibernate-ehcache=5.0.9.Final, org.hibernate:hibernate-entitymanager=5.0.9.Final, org.hibernate:hibernate-envers=5.0.9.Final, org.hibernate:hibernate-java8=5.0.9.Final, org.hibernate:hibernate-jpamodelgen=5.0.9.Final, org.hibernate:hibernate-validator=5.2.4.Final, org.hibernate:hibernate-validator-annotation-processor=5.2.4.Final, org.hornetq:hornetq-jms-client=2.4.7.Final, org.hornetq:hornetq-jms-server=2.4.7.Final, org.hsqldb:hsqldb=2.3.3, org.infinispan:infinispan-jcache=8.2.2.Final, org.infinispan:infinispan-spring4-common=8.2.2.Final, org.infinispan:infinispan-spring4-embedded=8.2.2.Final, org.javassist:javassist=3.20.0-GA, org.jboss:jboss-transaction-spi=7.3.2.Final, org.jboss.logging:jboss-logging=3.3.0.Final, org.jboss.narayana.jta:jdbc=5.3.3.Final, org.jboss.narayana.jta:jms=5.3.3.Final, org.jboss.narayana.jta:jta=5.3.3.Final, org.jboss.narayana.jts:narayana-jts-integration=5.3.3.Final, org.jdom:jdom2=2.0.6, org.jolokia:jolokia-core=1.3.3, org.json:json=20140107, org.jooq:jooq=3.8.4, org.jooq:jooq-meta=3.8.4, org.jooq:jooq-codegen=3.8.4, org.liquibase:liquibase-core=3.5.1, org.mariadb.jdbc:mariadb-java-client=1.4.6, org.mockito:mockito-core=1.10.19, org.mongodb:mongodb-driver=3.2.2, org.mongodb:mongo-java-driver=3.2.2, org.neo4j:neo4j-ogm-api=2.0.4, org.neo4j:neo4j-ogm-compiler=2.0.4, org.neo4j:neo4j-ogm-core=2.0.4, org.neo4j:neo4j-ogm-http-driver=2.0.4, org.postgresql:postgresql=9.4.1209.jre7, org.projectlombok:lombok=1.16.10, org.seleniumhq.selenium:htmlunit-driver=2.21, org.seleniumhq.selenium:selenium-api=2.53.1, org.seleniumhq.selenium:selenium-chrome-driver=2.53.1, org.seleniumhq.selenium:selenium-firefox-driver=2.53.1, org.seleniumhq.selenium:selenium-ie-driver=2.53.1, org.seleniumhq.selenium:selenium-java=2.53.1, org.seleniumhq.selenium:selenium-remote-driver=2.53.1, org.seleniumhq.selenium:selenium-safari-driver=2.53.1, org.seleniumhq.selenium:selenium-support=2.53.1, org.skyscreamer:jsonassert=1.3.0, org.slf4j:jcl-over-slf4j=1.7.21, org.slf4j:jul-to-slf4j=1.7.21, org.slf4j:log4j-over-slf4j=1.7.21, org.slf4j:slf4j-api=1.7.21, org.slf4j:slf4j-jdk14=1.7.21, org.slf4j:slf4j-log4j12=1.7.21, org.slf4j:slf4j-simple=1.7.21, org.spockframework:spock-core=1.0-groovy-2.4, org.spockframework:spock-spring=1.0-groovy-2.4, org.springframework:springloaded=1.2.6.RELEASE, org.springframework.amqp:spring-amqp=1.6.1.RELEASE, org.springframework.amqp:spring-rabbit=1.6.1.RELEASE, org.springframework.batch:spring-batch-core=3.0.7.RELEASE, org.springframework.batch:spring-batch-infrastructure=3.0.7.RELEASE, org.springframework.batch:spring-batch-integration=3.0.7.RELEASE, org.springframework.batch:spring-batch-test=3.0.7.RELEASE, org.springframework.cloud:spring-cloud-cloudfoundry-connector=1.2.3.RELEASE, org.springframework.cloud:spring-cloud-core=1.2.3.RELEASE, org.springframework.cloud:spring-cloud-heroku-connector=1.2.3.RELEASE, org.springframework.cloud:spring-cloud-localconfig-connector=1.2.3.RELEASE, org.springframework.cloud:spring-cloud-spring-service-connector=1.2.3.RELEASE, org.springframework.hateoas:spring-hateoas=0.20.0.RELEASE, org.springframework.integration:spring-integration-http=4.3.1.RELEASE, org.springframework.integration:spring-integration-java-dsl=1.1.3.RELEASE, org.springframework.mobile:spring-mobile-device=1.1.5.RELEASE, org.springframework.plugin:spring-plugin-core=1.2.0.RELEASE, org.springframework.restdocs:spring-restdocs-core=1.1.1.RELEASE, org.springframework.restdocs:spring-restdocs-mockmvc=1.1.1.RELEASE, org.springframework.restdocs:spring-restdocs-restassured=1.1.1.RELEASE, org.springframework.retry:spring-retry=1.1.3.RELEASE, org.springframework.security:spring-security-jwt=1.0.4.RELEASE, org.springframework.security.oauth:spring-security-oauth=2.0.10.RELEASE, org.springframework.security.oauth:spring-security-oauth2=2.0.10.RELEASE, org.springframework.session:spring-session=1.2.1.RELEASE, org.springframework.session:spring-session-data-gemfire=1.2.1.RELEASE, org.springframework.session:spring-session-data-mongo=1.2.1.RELEASE, org.springframework.session:spring-session-jdbc=1.2.1.RELEASE, org.springframework.session:spring-session-data-redis=1.2.1.RELEASE, org.springframework.social:spring-social-config=1.1.4.RELEASE, org.springframework.social:spring-social-core=1.1.4.RELEASE, org.springframework.social:spring-social-security=1.1.4.RELEASE, org.springframework.social:spring-social-web=1.1.4.RELEASE, org.springframework.social:spring-social-facebook=2.0.3.RELEASE, org.springframework.social:spring-social-facebook-web=2.0.3.RELEASE, org.springframework.social:spring-social-linkedin=1.0.2.RELEASE, org.springframework.social:spring-social-twitter=1.1.2.RELEASE, org.springframework.ws:spring-ws-core=2.3.0.RELEASE, org.springframework.ws:spring-ws-security=2.3.0.RELEASE, org.springframework.ws:spring-ws-support=2.3.0.RELEASE, org.springframework.ws:spring-ws-test=2.3.0.RELEASE, org.xerial:sqlite-jdbc=3.8.11.2, org.thymeleaf:thymeleaf=2.1.5.RELEASE, org.thymeleaf:thymeleaf-spring4=2.1.5.RELEASE, org.thymeleaf.extras:thymeleaf-extras-conditionalcomments=2.1.2.RELEASE, org.thymeleaf.extras:thymeleaf-extras-java8time=2.1.0.RELEASE, org.thymeleaf.extras:thymeleaf-extras-springsecurity4=2.1.2.RELEASE, org.webjars:hal-browser=9f96c74, org.webjars:webjars-locator=0.32, org.yaml:snakeyaml=1.17, redis.clients:jedis=2.8.2, wsdl4j:wsdl4j=1.6.3, xml-apis:xml-apis=1.4.01, org.springframework:spring-aop=4.3.2.RELEASE, org.springframework:spring-aspects=4.3.2.RELEASE, org.springframework:spring-beans=4.3.2.RELEASE, org.springframework:spring-context=4.3.2.RELEASE, org.springframework:spring-context-support=4.3.2.RELEASE, org.springframework:spring-expression=4.3.2.RELEASE, org.springframework:spring-instrument=4.3.2.RELEASE, org.springframework:spring-instrument-tomcat=4.3.2.RELEASE, org.springframework:spring-jdbc=4.3.2.RELEASE, org.springframework:spring-jms=4.3.2.RELEASE, org.springframework:spring-messaging=4.3.2.RELEASE, org.springframework:spring-orm=4.3.2.RELEASE, org.springframework:spring-oxm=4.3.2.RELEASE, org.springframework:spring-test=4.3.2.RELEASE, org.springframework:spring-tx=4.3.2.RELEASE, org.springframework:spring-web=4.3.2.RELEASE, org.springframework:spring-webmvc=4.3.2.RELEASE, org.springframework:spring-webmvc-portlet=4.3.2.RELEASE, org.springframework:spring-websocket=4.3.2.RELEASE, org.springframework.data:spring-cql=1.4.2.RELEASE, org.springframework.data:spring-data-cassandra=1.4.2.RELEASE, org.springframework.data:spring-data-commons=1.12.2.RELEASE, org.springframework.data:spring-data-couchbase=2.1.2.RELEASE, org.springframework.data:spring-data-elasticsearch=2.0.2.RELEASE, org.springframework.data:spring-data-gemfire=1.8.2.RELEASE, org.springframework.data:spring-data-jpa=1.10.2.RELEASE, org.springframework.data:spring-data-mongodb=1.9.2.RELEASE, org.springframework.data:spring-data-mongodb-cross-store=1.9.2.RELEASE, org.springframework.data:spring-data-mongodb-log4j=1.9.2.RELEASE, org.springframework.data:spring-data-neo4j=4.1.2.RELEASE, org.springframework.data:spring-data-redis=1.7.2.RELEASE, org.springframework.data:spring-data-rest-webmvc=2.5.2.RELEASE, org.springframework.data:spring-data-rest-core=2.5.2.RELEASE, org.springframework.data:spring-data-rest-hal-browser=2.5.2.RELEASE, org.springframework.data:spring-data-solr=2.0.2.RELEASE, org.springframework.data:spring-data-keyvalue=1.1.2.RELEASE, org.springframework.data:spring-data-envers=1.0.2.RELEASE, org.springframework.integration:spring-integration-amqp=4.3.1.RELEASE, org.springframework.integration:spring-integration-core=4.3.1.RELEASE, org.springframework.integration:spring-integration-event=4.3.1.RELEASE, org.springframework.integration:spring-integration-feed=4.3.1.RELEASE, org.springframework.integration:spring-integration-file=4.3.1.RELEASE, org.springframework.integration:spring-integration-ftp=4.3.1.RELEASE, org.springframework.integration:spring-integration-gemfire=4.3.1.RELEASE, org.springframework.integration:spring-integration-groovy=4.3.1.RELEASE, org.springframework.integration:spring-integration-ip=4.3.1.RELEASE, org.springframework.integration:spring-integration-jdbc=4.3.1.RELEASE, org.springframework.integration:spring-integration-jms=4.3.1.RELEASE, org.springframework.integration:spring-integration-jmx=4.3.1.RELEASE, org.springframework.integration:spring-integration-jpa=4.3.1.RELEASE, org.springframework.integration:spring-integration-mail=4.3.1.RELEASE, org.springframework.integration:spring-integration-mongodb=4.3.1.RELEASE, org.springframework.integration:spring-integration-mqtt=4.3.1.RELEASE, org.springframework.integration:spring-integration-redis=4.3.1.RELEASE, org.springframework.integration:spring-integration-rmi=4.3.1.RELEASE, org.springframework.integration:spring-integration-scripting=4.3.1.RELEASE, org.springframework.integration:spring-integration-security=4.3.1.RELEASE, org.springframework.integration:spring-integration-sftp=4.3.1.RELEASE, org.springframework.integration:spring-integration-stomp=4.3.1.RELEASE, org.springframework.integration:spring-integration-stream=4.3.1.RELEASE, org.springframework.integration:spring-integration-syslog=4.3.1.RELEASE, org.springframework.integration:spring-integration-test=4.3.1.RELEASE, org.springframework.integration:spring-integration-twitter=4.3.1.RELEASE, org.springframework.integration:spring-integration-websocket=4.3.1.RELEASE, org.springframework.integration:spring-integration-ws=4.3.1.RELEASE, org.springframework.integration:spring-integration-xml=4.3.1.RELEASE, org.springframework.integration:spring-integration-xmpp=4.3.1.RELEASE, org.springframework.integration:spring-integration-zookeeper=4.3.1.RELEASE, org.springframework.security:spring-security-acl=4.1.1.RELEASE, org.springframework.security:spring-security-aspects=4.1.1.RELEASE, org.springframework.security:spring-security-cas=4.1.1.RELEASE, org.springframework.security:spring-security-config=4.1.1.RELEASE, org.springframework.security:spring-security-core=4.1.1.RELEASE, org.springframework.security:spring-security-crypto=4.1.1.RELEASE, org.springframework.security:spring-security-data=4.1.1.RELEASE, org.springframework.security:spring-security-ldap=4.1.1.RELEASE, org.springframework.security:spring-security-messaging=4.1.1.RELEASE, org.springframework.security:spring-security-openid=4.1.1.RELEASE, org.springframework.security:spring-security-remoting=4.1.1.RELEASE, org.springframework.security:spring-security-taglibs=4.1.1.RELEASE, org.springframework.security:spring-security-test=4.1.1.RELEASE, org.springframework.security:spring-security-web=4.1.1.RELEASE}
+Using version '9.4.1209.jre7' for dependency 'org.postgresql:postgresql:'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-web:'
+Using version '2.7' for dependency 'com.google.code.gson:gson:2.7'
+Using version '3.4' for dependency 'org.apache.commons:commons-lang3:3.4'
+Using version '1.2.3.RELEASE' for dependency 'org.springframework.cloud:spring-cloud-cloudfoundry-connector:1.2.3.RELEASE'
+Using version '1.2.3.RELEASE' for dependency 'org.springframework.cloud:spring-cloud-spring-service-connector:1.2.3.RELEASE'
+Using version '1.4.192' for dependency 'com.h2database:h2:'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter:1.4.1.RELEASE'
+Using version '8.5.4' for dependency 'org.apache.tomcat:tomcat-jdbc:8.5.5'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-jdbc:4.3.3.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-aop:1.4.1.RELEASE'
+Using version '5.0.9.Final' for dependency 'org.hibernate:hibernate-core:5.0.11.Final'
+Using version '5.0.9.Final' for dependency 'org.hibernate:hibernate-entitymanager:5.0.11.Final'
+Using version '1.2' for dependency 'javax.transaction:javax.transaction-api:1.2'
+Using version '1.10.2.RELEASE' for dependency 'org.springframework.data:spring-data-jpa:1.10.3.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-aspects:4.3.3.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter:1.4.0.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-tomcat:1.4.0.RELEASE'
+Using version '5.2.4.Final' for dependency 'org.hibernate:hibernate-validator:5.2.4.Final'
+Using version '2.8.1' for dependency 'com.fasterxml.jackson.core:jackson-databind:2.8.1'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-web:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-webmvc:4.3.2.RELEASE'
+Using version '1.2.3.RELEASE' for dependency 'org.springframework.cloud:spring-cloud-core:1.2.3.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-context:3.1.4.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot:1.4.0.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-autoconfigure:1.4.0.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-logging:1.4.0.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-core:4.3.2.RELEASE'
+Using version '1.17' for dependency 'org.yaml:snakeyaml:1.17'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-beans:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-tx:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-aop:4.3.2.RELEASE'
+Using version '1.8.9' for dependency 'org.aspectj:aspectjweaver:1.8.9'
+Using version '3.3.0.Final' for dependency 'org.jboss.logging:jboss-logging:3.3.0.Final'
+Using version '3.20.0-GA' for dependency 'org.javassist:javassist:3.18.1-GA'
+Using version '2.7.7' for dependency 'antlr:antlr:2.7.7'
+Using version '1.6.1' for dependency 'dom4j:dom4j:1.6.1'
+Using version '5.0.9.Final' for dependency 'org.hibernate:hibernate-core:5.0.9.Final'
+Using version '1.12.2.RELEASE' for dependency 'org.springframework.data:spring-data-commons:1.12.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-orm:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-context:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-aop:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-tx:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-beans:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-core:4.2.6.RELEASE'
+Using version '1.7.21' for dependency 'org.slf4j:slf4j-api:1.7.21'
+Using version '1.7.21' for dependency 'org.slf4j:jcl-over-slf4j:1.7.21'
+Using version '8.5.4' for dependency 'org.apache.tomcat.embed:tomcat-embed-core:8.5.4'
+Using version '8.5.4' for dependency 'org.apache.tomcat.embed:tomcat-embed-el:8.5.4'
+Using version '8.5.4' for dependency 'org.apache.tomcat.embed:tomcat-embed-websocket:8.5.4'
+Using version '3.3.0.Final' for dependency 'org.jboss.logging:jboss-logging:3.2.1.Final'
+Using version '1.3.1' for dependency 'com.fasterxml:classmate:1.1.0'
+Using version '2.8.1' for dependency 'com.fasterxml.jackson.core:jackson-annotations:2.8.0'
+Using version '2.8.1' for dependency 'com.fasterxml.jackson.core:jackson-core:2.8.1'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-context:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-expression:4.3.2.RELEASE'
+Using version '1.1.7' for dependency 'ch.qos.logback:logback-classic:1.1.7'
+Using version '1.7.21' for dependency 'org.slf4j:jul-to-slf4j:1.7.21'
+Using version '1.7.21' for dependency 'org.slf4j:log4j-over-slf4j:1.7.21'
+Using version '1.4.01' for dependency 'xml-apis:xml-apis:1.0.b2'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-jdbc:4.3.2.RELEASE'
+Using version '1.1.7' for dependency 'ch.qos.logback:logback-core:1.1.7'
+Using version '1.7.21' for dependency 'org.slf4j:slf4j-api:1.7.20'
+Excluding [commons-logging:commons-logging:1.2]
+Using version '1.4.1.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-parent:1.4.1.RELEASE'
+Using version '4.0.3' for dependency 'org.flywaydb:flyway-core:4.0.3'
+Using version '1.4.1.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-jdbc:1.4.1.RELEASE'
+Using version '1.4.1.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-data-jpa:1.4.1.RELEASE'
+Using version '9.4.1209.jre7' for dependency 'org.postgresql:postgresql:'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-web:'
+Using version '2.7' for dependency 'com.google.code.gson:gson:2.7'
+Using version '3.4' for dependency 'org.apache.commons:commons-lang3:3.4'
+Using version '1.2.3.RELEASE' for dependency 'org.springframework.cloud:spring-cloud-cloudfoundry-connector:1.2.3.RELEASE'
+Using version '1.2.3.RELEASE' for dependency 'org.springframework.cloud:spring-cloud-spring-service-connector:1.2.3.RELEASE'
+Using version '1.4.192' for dependency 'com.h2database:h2:'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter:1.4.1.RELEASE'
+Using version '8.5.4' for dependency 'org.apache.tomcat:tomcat-jdbc:8.5.5'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-jdbc:4.3.3.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-aop:1.4.1.RELEASE'
+Using version '5.0.9.Final' for dependency 'org.hibernate:hibernate-core:5.0.11.Final'
+Using version '5.0.9.Final' for dependency 'org.hibernate:hibernate-entitymanager:5.0.11.Final'
+Using version '1.2' for dependency 'javax.transaction:javax.transaction-api:1.2'
+Using version '1.10.2.RELEASE' for dependency 'org.springframework.data:spring-data-jpa:1.10.3.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-aspects:4.3.3.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter:1.4.0.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-tomcat:1.4.0.RELEASE'
+Using version '5.2.4.Final' for dependency 'org.hibernate:hibernate-validator:5.2.4.Final'
+Using version '2.8.1' for dependency 'com.fasterxml.jackson.core:jackson-databind:2.8.1'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-web:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-webmvc:4.3.2.RELEASE'
+Using version '1.2.3.RELEASE' for dependency 'org.springframework.cloud:spring-cloud-core:1.2.3.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-context:3.1.4.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot:1.4.0.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-autoconfigure:1.4.0.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-logging:1.4.0.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-core:4.3.2.RELEASE'
+Using version '1.17' for dependency 'org.yaml:snakeyaml:1.17'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-beans:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-tx:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-aop:4.3.2.RELEASE'
+Using version '1.8.9' for dependency 'org.aspectj:aspectjweaver:1.8.9'
+Using version '3.3.0.Final' for dependency 'org.jboss.logging:jboss-logging:3.3.0.Final'
+Using version '3.20.0-GA' for dependency 'org.javassist:javassist:3.18.1-GA'
+Using version '2.7.7' for dependency 'antlr:antlr:2.7.7'
+Using version '1.6.1' for dependency 'dom4j:dom4j:1.6.1'
+Using version '5.0.9.Final' for dependency 'org.hibernate:hibernate-core:5.0.9.Final'
+Using version '1.12.2.RELEASE' for dependency 'org.springframework.data:spring-data-commons:1.12.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-orm:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-context:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-aop:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-tx:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-beans:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-core:4.2.6.RELEASE'
+Using version '1.7.21' for dependency 'org.slf4j:slf4j-api:1.7.21'
+Using version '1.7.21' for dependency 'org.slf4j:jcl-over-slf4j:1.7.21'
+Using version '8.5.4' for dependency 'org.apache.tomcat.embed:tomcat-embed-core:8.5.4'
+Using version '8.5.4' for dependency 'org.apache.tomcat.embed:tomcat-embed-el:8.5.4'
+Using version '8.5.4' for dependency 'org.apache.tomcat.embed:tomcat-embed-websocket:8.5.4'
+Using version '3.3.0.Final' for dependency 'org.jboss.logging:jboss-logging:3.2.1.Final'
+Using version '1.3.1' for dependency 'com.fasterxml:classmate:1.1.0'
+Using version '2.8.1' for dependency 'com.fasterxml.jackson.core:jackson-annotations:2.8.0'
+Using version '2.8.1' for dependency 'com.fasterxml.jackson.core:jackson-core:2.8.1'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-context:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-expression:4.3.2.RELEASE'
+Using version '1.1.7' for dependency 'ch.qos.logback:logback-classic:1.1.7'
+Using version '1.7.21' for dependency 'org.slf4j:jul-to-slf4j:1.7.21'
+Using version '1.7.21' for dependency 'org.slf4j:log4j-over-slf4j:1.7.21'
+Using version '1.4.01' for dependency 'xml-apis:xml-apis:1.0.b2'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-jdbc:4.3.2.RELEASE'
+Using version '1.1.7' for dependency 'ch.qos.logback:logback-core:1.1.7'
+Using version '1.7.21' for dependency 'org.slf4j:slf4j-api:1.7.20'
+Executing task ':backend:compileJava' (up-to-date check took 0.367 secs) due to:
+  Output property 'dependencyCacheDir' file /Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/backend/build/dependency-cache has changed.
+  Output property 'destinationDir' file /Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/backend/build/classes/main has changed.
+  Output property 'destinationDir' file /Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/backend/build/classes/main/com/pizza/backend/atb/JenkinsDataSourceConfig.class has been removed.
+All input files are considered out-of-date for incremental task ':backend:compileJava'.
+Compiling with JDK Java compiler API.
+:backend:compileJava (Thread[Task worker Thread 2,5,main]) completed. Took 0.597 secs.
+:backend:processResources (Thread[Task worker Thread 3,5,main]) started.
+:backend:processResources
+Executing task ':backend:processResources' (up-to-date check took 0.001 secs) due to:
+  Output property 'destinationDir' file /Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/backend/build/resources/main has changed.
+  Output property 'destinationDir' file /Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/backend/build/resources/main/db/migration/V1__create_order.sql has been removed.
+  Output property 'destinationDir' file /Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/backend/build/resources/main/application-jenkins.properties has been removed.
+:backend:processResources (Thread[Task worker Thread 3,5,main]) completed. Took 0.015 secs.
+:backend:classes (Thread[Task worker Thread 4,5,main]) started.
+:backend:classes
+Skipping task ':backend:classes' as it has no actions.
+:backend:classes (Thread[Task worker Thread 4,5,main]) completed. Took 0.0 secs.
+:backend:findMainClass (Thread[Task worker Thread 5,5,main]) started.
+:backend:findMainClass
+Executing task ':backend:findMainClass' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+Computed main class: com.pizza.backend.atb.AtbPizzaDemoApplication
+Found main: com.pizza.backend.atb.AtbPizzaDemoApplication
+:backend:findMainClass (Thread[Task worker Thread 5,5,main]) completed. Took 0.007 secs.
+:backend:bootRun (Thread[Task worker Thread 3,5,main]) started.
+:backend:bootRun
+Executing task ':backend:bootRun' (up-to-date check took 0.0 secs) due to:
+  Task has not declared any outputs.
+Resolving dependency management for configuration 'runtime' of project 'backend'
+Resolved versions: {org.springframework.boot:spring-boot-starter-parent=1.4.1.RELEASE, org.flywaydb:flyway-core=4.0.3, org.springframework.boot:spring-boot-starter-jdbc=1.4.1.RELEASE, org.springframework.boot:spring-boot-starter-data-jpa=1.4.1.RELEASE, com.google.code.gson:gson=2.7, org.apache.commons:commons-lang3=3.4, org.springframework.cloud:spring-cloud-cloudfoundry-connector=1.2.3.RELEASE, org.springframework.cloud:spring-cloud-spring-service-connector=1.2.3.RELEASE}
+Using version '1.4.1.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-parent:1.4.1.RELEASE'
+Using version '4.0.3' for dependency 'org.flywaydb:flyway-core:4.0.3'
+Using version '1.4.1.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-jdbc:1.4.1.RELEASE'
+Using version '1.4.1.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-data-jpa:1.4.1.RELEASE'
+Using version '9.4.1209.jre7' for dependency 'org.postgresql:postgresql:'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-web:'
+Using version '2.7' for dependency 'com.google.code.gson:gson:2.7'
+Using version '3.4' for dependency 'org.apache.commons:commons-lang3:3.4'
+Using version '1.2.3.RELEASE' for dependency 'org.springframework.cloud:spring-cloud-cloudfoundry-connector:1.2.3.RELEASE'
+Using version '1.2.3.RELEASE' for dependency 'org.springframework.cloud:spring-cloud-spring-service-connector:1.2.3.RELEASE'
+Using version '1.4.192' for dependency 'com.h2database:h2:'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter:1.4.1.RELEASE'
+Using version '8.5.4' for dependency 'org.apache.tomcat:tomcat-jdbc:8.5.5'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-jdbc:4.3.3.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-aop:1.4.1.RELEASE'
+Using version '5.0.9.Final' for dependency 'org.hibernate:hibernate-core:5.0.11.Final'
+Using version '5.0.9.Final' for dependency 'org.hibernate:hibernate-entitymanager:5.0.11.Final'
+Using version '1.2' for dependency 'javax.transaction:javax.transaction-api:1.2'
+Using version '1.10.2.RELEASE' for dependency 'org.springframework.data:spring-data-jpa:1.10.3.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-aspects:4.3.3.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter:1.4.0.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-tomcat:1.4.0.RELEASE'
+Using version '5.2.4.Final' for dependency 'org.hibernate:hibernate-validator:5.2.4.Final'
+Using version '2.8.1' for dependency 'com.fasterxml.jackson.core:jackson-databind:2.8.1'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-web:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-webmvc:4.3.2.RELEASE'
+Using version '1.2.3.RELEASE' for dependency 'org.springframework.cloud:spring-cloud-core:1.2.3.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-context:3.1.4.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot:1.4.0.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-autoconfigure:1.4.0.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-logging:1.4.0.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-core:4.3.2.RELEASE'
+Using version '1.17' for dependency 'org.yaml:snakeyaml:1.17'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-beans:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-tx:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-aop:4.3.2.RELEASE'
+Using version '1.8.9' for dependency 'org.aspectj:aspectjweaver:1.8.9'
+Using version '3.3.0.Final' for dependency 'org.jboss.logging:jboss-logging:3.3.0.Final'
+Using version '3.20.0-GA' for dependency 'org.javassist:javassist:3.18.1-GA'
+Using version '2.7.7' for dependency 'antlr:antlr:2.7.7'
+Using version '1.6.1' for dependency 'dom4j:dom4j:1.6.1'
+Using version '5.0.9.Final' for dependency 'org.hibernate:hibernate-core:5.0.9.Final'
+Using version '1.12.2.RELEASE' for dependency 'org.springframework.data:spring-data-commons:1.12.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-orm:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-context:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-aop:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-tx:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-beans:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-core:4.2.6.RELEASE'
+Using version '1.7.21' for dependency 'org.slf4j:slf4j-api:1.7.21'
+Using version '1.7.21' for dependency 'org.slf4j:jcl-over-slf4j:1.7.21'
+Using version '8.5.4' for dependency 'org.apache.tomcat.embed:tomcat-embed-core:8.5.4'
+Using version '8.5.4' for dependency 'org.apache.tomcat.embed:tomcat-embed-el:8.5.4'
+Using version '8.5.4' for dependency 'org.apache.tomcat.embed:tomcat-embed-websocket:8.5.4'
+Using version '3.3.0.Final' for dependency 'org.jboss.logging:jboss-logging:3.2.1.Final'
+Using version '1.3.1' for dependency 'com.fasterxml:classmate:1.1.0'
+Using version '2.8.1' for dependency 'com.fasterxml.jackson.core:jackson-annotations:2.8.0'
+Using version '2.8.1' for dependency 'com.fasterxml.jackson.core:jackson-core:2.8.1'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-context:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-expression:4.3.2.RELEASE'
+Using version '1.1.7' for dependency 'ch.qos.logback:logback-classic:1.1.7'
+Using version '1.7.21' for dependency 'org.slf4j:jul-to-slf4j:1.7.21'
+Using version '1.7.21' for dependency 'org.slf4j:log4j-over-slf4j:1.7.21'
+Using version '1.4.01' for dependency 'xml-apis:xml-apis:1.0.b2'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-jdbc:4.3.2.RELEASE'
+Using version '1.1.7' for dependency 'ch.qos.logback:logback-core:1.1.7'
+Using version '1.7.21' for dependency 'org.slf4j:slf4j-api:1.7.20'
+Excluding []
+Using version '1.4.1.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-parent:1.4.1.RELEASE'
+Using version '4.0.3' for dependency 'org.flywaydb:flyway-core:4.0.3'
+Using version '1.4.1.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-jdbc:1.4.1.RELEASE'
+Using version '1.4.1.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-data-jpa:1.4.1.RELEASE'
+Using version '9.4.1209.jre7' for dependency 'org.postgresql:postgresql:'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-web:'
+Using version '2.7' for dependency 'com.google.code.gson:gson:2.7'
+Using version '3.4' for dependency 'org.apache.commons:commons-lang3:3.4'
+Using version '1.2.3.RELEASE' for dependency 'org.springframework.cloud:spring-cloud-cloudfoundry-connector:1.2.3.RELEASE'
+Using version '1.2.3.RELEASE' for dependency 'org.springframework.cloud:spring-cloud-spring-service-connector:1.2.3.RELEASE'
+Using version '1.4.192' for dependency 'com.h2database:h2:'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter:1.4.1.RELEASE'
+Using version '8.5.4' for dependency 'org.apache.tomcat:tomcat-jdbc:8.5.5'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-jdbc:4.3.3.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-aop:1.4.1.RELEASE'
+Using version '5.0.9.Final' for dependency 'org.hibernate:hibernate-core:5.0.11.Final'
+Using version '5.0.9.Final' for dependency 'org.hibernate:hibernate-entitymanager:5.0.11.Final'
+Using version '1.2' for dependency 'javax.transaction:javax.transaction-api:1.2'
+Using version '1.10.2.RELEASE' for dependency 'org.springframework.data:spring-data-jpa:1.10.3.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-aspects:4.3.3.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter:1.4.0.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-tomcat:1.4.0.RELEASE'
+Using version '5.2.4.Final' for dependency 'org.hibernate:hibernate-validator:5.2.4.Final'
+Using version '2.8.1' for dependency 'com.fasterxml.jackson.core:jackson-databind:2.8.1'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-web:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-webmvc:4.3.2.RELEASE'
+Using version '1.2.3.RELEASE' for dependency 'org.springframework.cloud:spring-cloud-core:1.2.3.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-context:3.1.4.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot:1.4.0.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-autoconfigure:1.4.0.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-starter-logging:1.4.0.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-core:4.3.2.RELEASE'
+Using version '1.17' for dependency 'org.yaml:snakeyaml:1.17'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-beans:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-tx:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-aop:4.3.2.RELEASE'
+Using version '1.8.9' for dependency 'org.aspectj:aspectjweaver:1.8.9'
+Using version '3.3.0.Final' for dependency 'org.jboss.logging:jboss-logging:3.3.0.Final'
+Using version '3.20.0-GA' for dependency 'org.javassist:javassist:3.18.1-GA'
+Using version '2.7.7' for dependency 'antlr:antlr:2.7.7'
+Using version '1.6.1' for dependency 'dom4j:dom4j:1.6.1'
+Using version '5.0.9.Final' for dependency 'org.hibernate:hibernate-core:5.0.9.Final'
+Using version '1.12.2.RELEASE' for dependency 'org.springframework.data:spring-data-commons:1.12.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-orm:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-context:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-aop:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-tx:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-beans:4.2.6.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-core:4.2.6.RELEASE'
+Using version '1.7.21' for dependency 'org.slf4j:slf4j-api:1.7.21'
+Using version '1.7.21' for dependency 'org.slf4j:jcl-over-slf4j:1.7.21'
+Using version '8.5.4' for dependency 'org.apache.tomcat.embed:tomcat-embed-core:8.5.4'
+Using version '8.5.4' for dependency 'org.apache.tomcat.embed:tomcat-embed-el:8.5.4'
+Using version '8.5.4' for dependency 'org.apache.tomcat.embed:tomcat-embed-websocket:8.5.4'
+Using version '3.3.0.Final' for dependency 'org.jboss.logging:jboss-logging:3.2.1.Final'
+Using version '1.3.1' for dependency 'com.fasterxml:classmate:1.1.0'
+Using version '2.8.1' for dependency 'com.fasterxml.jackson.core:jackson-annotations:2.8.0'
+Using version '2.8.1' for dependency 'com.fasterxml.jackson.core:jackson-core:2.8.1'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-context:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-expression:4.3.2.RELEASE'
+Using version '1.1.7' for dependency 'ch.qos.logback:logback-classic:1.1.7'
+Using version '1.7.21' for dependency 'org.slf4j:jul-to-slf4j:1.7.21'
+Using version '1.7.21' for dependency 'org.slf4j:log4j-over-slf4j:1.7.21'
+Using version '1.4.01' for dependency 'xml-apis:xml-apis:1.0.b2'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-jdbc:4.3.2.RELEASE'
+Using version '1.1.7' for dependency 'ch.qos.logback:logback-core:1.1.7'
+Using version '1.7.21' for dependency 'org.slf4j:slf4j-api:1.7.20'
+Resolving dependency management for configuration 'dev' of project 'backend'
+Resolved versions: {}
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-devtools:'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot:1.4.0.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-autoconfigure:1.4.0.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-core:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-context:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-aop:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-beans:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-expression:4.3.2.RELEASE'
+Excluding [commons-logging:commons-logging:1.2]
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-devtools:'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot:1.4.0.RELEASE'
+Using version '1.4.0.RELEASE' for dependency 'org.springframework.boot:spring-boot-autoconfigure:1.4.0.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-core:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-context:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-aop:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-beans:4.3.2.RELEASE'
+Using version '4.3.2.RELEASE' for dependency 'org.springframework:spring-expression:4.3.2.RELEASE'
+Starting process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/bin/java''. Working directory: /Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/backend Command: /Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/bin/java -Dawt.toolkit=sun.lwawt.macosx.LWCToolkit -Dfile.encoding.pkg=sun.io -Dfile.separator=/ -Dftp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16 -DgopherProxySet=false -Dhttp.nonProxyHosts=local|*.local|169.254/16|*.169.254/16 -Djava.awt.graphicsenv=sun.awt.CGraphicsEnvironment -Djava.awt.printerjob=sun.lwawt.macosx.CPrinterJob -Djava.class.path=/Users/administrator/.gradle/wrapper/dists/gradle-3.0-all/6v8c6qg2jpi8twyfv2a5s9mii/gradle-3.0/lib/gradle-launcher-3.0.jar -Djava.class.version=52.0 -Djava.endorsed.dirs=/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/endorsed -Djava.ext.dirs=/Users/administrator/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java -Djava.home=/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre -Djava.library.path=/Users/administrator/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:. -Djava.runtime.name=Java(TM) SE Runtime Environment -Djava.runtime.version=1.8.0_11-b12 -Djava.specification.name=Java Platform API Specification -Djava.specification.vendor=Oracle Corporation -Djava.specification.version=1.8 -Djava.vendor=Oracle Corporation -Djava.vendor.url=http://java.oracle.com/ -Djava.vendor.url.bug=http://bugreport.sun.com/bugreport/ -Djava.version=1.8.0_11 -Djava.vm.info=mixed mode -Djava.vm.name=Java HotSpot(TM) 64-Bit Server VM -Djava.vm.specification.name=Java Virtual Machine Specification -Djava.vm.specification.vendor=Oracle Corporation -Djava.vm.specification.version=1.8 -Djava.vm.vendor=Oracle Corporation -Djava.vm.version=25.11-b03 -Djna.platform.library.path=/usr/lib:/usr/lib -Dline.separator=
+ -Dorg.gradle.appname=gradlew -Dos.arch=x86_64 -Dos.name=Mac OS X -Dos.version=10.11.6 -Dpath.separator=: -DsocksNonProxyHosts=local|*.local|169.254/16|*.169.254/16 -Dsun.arch.data.model=64 -Dsun.boot.class.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/classes -Dsun.boot.library.path=/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/jre/lib -Dsun.cpu.endian=little -Dsun.cpu.isalist -Dsun.io.unicode.encoding=UnicodeBig -Dsun.java.command=org.gradle.launcher.daemon.bootstrap.GradleDaemon 3.0 -Dsun.java.launcher=SUN_STANDARD -Dsun.jnu.encoding=UTF-8 -Dsun.management.compiler=HotSpot 64-Bit Tiered Compilers -Dsun.os.patch.level=unknown -Duser.country.format=CA -Duser.dir=/Users/administrator/git/6-POC/ATB/atb-pizza-poc-server -Duser.home=/Users/administrator -Duser.name=administrator -Duser.timezone=America/Toronto -javaagent:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework/springloaded/1.2.6.RELEASE/df364cd5f36ae9a01ac4e73ecd138daa735fbbc8/springloaded-1.2.6.RELEASE.jar -noverify -Dfile.encoding=UTF-8 -Djava.io.tmpdir=/var/folders/cy/2jxx7l2d395613xr834__9nw0000gp/T/ -Duser.country=US -Duser.language=en -Duser.variant -cp /Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/backend/build/classes/main:/Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/backend/build/resources/main:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.flywaydb/flyway-core/4.0.3/638bafe93a0f8bf0fe5224bbf0a84a2fdaa65d1f/flyway-core-4.0.3.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-jdbc/1.4.1.RELEASE/65747117d00292fdae59cc8d47aff8e03c12fa17/spring-boot-starter-jdbc-1.4.1.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-data-jpa/1.4.1.RELEASE/cae0497ceff725efd0438f070c8c0ca0ef3a7128/spring-boot-starter-data-jpa-1.4.1.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.postgresql/postgresql/9.4.1209.jre7/e09de5f6b2dd371aa729a31e782af886b14269cc/postgresql-9.4.1209.jre7.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-web/1.4.0.RELEASE/bcefa854b75a7e0bcf612bfbe030bdcb05c9da82/spring-boot-starter-web-1.4.0.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/com.google.code.gson/gson/2.7/751f548c85fa49f330cecbb1875893f971b33c4e/gson-2.7.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.apache.commons/commons-lang3/3.4/5fe28b9518e58819180a43a850fbc0dd24b7c050/commons-lang3-3.4.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-cloudfoundry-connector/1.2.3.RELEASE/f925c498235a948cedcd884f8b9c07c24082104b/spring-cloud-cloudfoundry-connector-1.2.3.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-spring-service-connector/1.2.3.RELEASE/4a02ccda8d5493b5ce367def0d83ff55c59042c4/spring-cloud-spring-service-connector-1.2.3.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/com.h2database/h2/1.4.192/1106492605db135523d2817881cdf029d9292afa/h2-1.4.192.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter/1.4.0.RELEASE/9eb9be27958cc17de9673a6fbbdaf16fb65a7fdc/spring-boot-starter-1.4.0.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-jdbc/8.5.4/bebaa475e69c649dcd9616bd204712cfd8551321/tomcat-jdbc-8.5.4.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework/spring-jdbc/4.3.2.RELEASE/d60bd9daf7d819c72e6a27fad16c4683b2e7df11/spring-jdbc-4.3.2.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-aop/1.4.0.RELEASE/68109cfdd0e86e301528f3722e28f6c98f0b7d5e/spring-boot-starter-aop-1.4.0.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-core/5.0.9.Final/7e06db0b4365876419daafc9b40c9088ba40f64d/hibernate-core-5.0.9.Final.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-entitymanager/5.0.9.Final/9eed86e58baf4a3fb9d5156cf03e59051e2bc6c5/hibernate-entitymanager-5.0.9.Final.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/javax.transaction/javax.transaction-api/1.2/d81aff979d603edd90dcd8db2abc1f4ce6479e3e/javax.transaction-api-1.2.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-jpa/1.10.2.RELEASE/5da5131a02365790d38469cd3bae778e4891daff/spring-data-jpa-1.10.2.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aspects/4.3.2.RELEASE/bdb8ccdfd7e52c6e7b9a187327b1be04e0e2ac1f/spring-aspects-4.3.2.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-tomcat/1.4.0.RELEASE/9f3530cbc1998b9aeebd0a5c070f5d4f24357610/spring-boot-starter-tomcat-1.4.0.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.hibernate/hibernate-validator/5.2.4.Final/fb18766b576aa6632bcfe9a20a023cbd52bf9769/hibernate-validator-5.2.4.Final.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-databind/2.8.1/c04eb2cc599cd1742889bfa7cc41878db0d152f5/jackson-databind-2.8.1.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework/spring-web/4.3.2.RELEASE/562b3b775b6e8e7113b5d23b21946f939658bd19/spring-web-4.3.2.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework/spring-webmvc/4.3.2.RELEASE/99b68a8aca2ed67ad523e7341a90dd1c90fd669e/spring-webmvc-4.3.2.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework.cloud/spring-cloud-core/1.2.3.RELEASE/a486b0795694f7fd4b5e7073730926bb7a35a65/spring-cloud-core-1.2.3.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework/spring-context/4.3.2.RELEASE/e52782b824e097c3b1586b497fc6be0e95020770/spring-context-4.3.2.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot/1.4.0.RELEASE/3b4ea475b40eb9dc966fb3c650c97bfabb988f9/spring-boot-1.4.0.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-autoconfigure/1.4.0.RELEASE/9fa1ac16ac6fd96d7df2c72b55ba9814be082ffc/spring-boot-autoconfigure-1.4.0.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-starter-logging/1.4.0.RELEASE/53303110c92c921e09e1c9bc8b9bf4c1935c2f12/spring-boot-starter-logging-1.4.0.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework/spring-core/4.3.2.RELEASE/fd2f3cf45d3c84f293cb7ee3ab7d24c979495552/spring-core-4.3.2.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.yaml/snakeyaml/1.17/7a27ea250c5130b2922b86dea63cbb1cc10a660c/snakeyaml-1.17.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.apache.tomcat/tomcat-juli/8.5.4/d4312ba583aa62f08a0b22beddc816a2da419d4c/tomcat-juli-8.5.4.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework/spring-beans/4.3.2.RELEASE/9e87f48f65a33a017f2dd027911947a28be29f93/spring-beans-4.3.2.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework/spring-tx/4.3.2.RELEASE/dd75075485ddebb1f912102527ff91c4bfbae903/spring-tx-4.3.2.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework/spring-aop/4.3.2.RELEASE/caef216e995f565dd4ab165ec5918ff44487615d/spring-aop-4.3.2.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.aspectj/aspectjweaver/1.8.9/db28774f477f07220eac18d5ec9c4e01f48589d7/aspectjweaver-1.8.9.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.jboss.logging/jboss-logging/3.3.0.Final/3616bb87707910296e2c195dc016287080bba5af/jboss-logging-3.3.0.Final.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.hibernate.javax.persistence/hibernate-jpa-2.1-api/1.0.0.Final/5e731d961297e5a07290bfaf3db1fbc8bbbf405a/hibernate-jpa-2.1-api-1.0.0.Final.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.javassist/javassist/3.20.0-GA/a9cbcdfb7e9f86fbc74d3afae65f2248bfbf82a0/javassist-3.20.0-GA.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/antlr/antlr/2.7.7/83cd2cd674a217ade95a4bb83a8a14f351f48bd0/antlr-2.7.7.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.jboss/jandex/2.0.0.Final/3e899258936f94649c777193e1be846387ed54b3/jandex-2.0.0.Final.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/dom4j/dom4j/1.6.1/5d3ccc056b6f056dbf0dddfdf43894b9065a8f94/dom4j-1.6.1.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.hibernate.common/hibernate-commons-annotations/5.0.1.Final/71e1cff3fcb20d3b3af4f3363c3ddb24d33c6879/hibernate-commons-annotations-5.0.1.Final.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework.data/spring-data-commons/1.12.2.RELEASE/a827ed936b8685c19eecda0abb86fb86193ddffc/spring-data-commons-1.12.2.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework/spring-orm/4.3.2.RELEASE/1afea599c72aef7362b469a5b322e3e7e37d0dfc/spring-orm-4.3.2.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.slf4j/slf4j-api/1.7.21/139535a69a4239db087de9bab0bee568bf8e0b70/slf4j-api-1.7.21.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.slf4j/jcl-over-slf4j/1.7.21/331b564a3a42f002a0004b039c1c430da89062cd/jcl-over-slf4j-1.7.21.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-core/8.5.4/48ee085e4b3f71e98535e4c17c0ce1394812a94a/tomcat-embed-core-8.5.4.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-el/8.5.4/2d53f2e3b6b456cb7ac82e1549a944db7f5b05bf/tomcat-embed-el-8.5.4.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.apache.tomcat.embed/tomcat-embed-websocket/8.5.4/211d26f536aee3283345aa5b1c479e937401fcd2/tomcat-embed-websocket-8.5.4.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/javax.validation/validation-api/1.1.0.Final/8613ae82954779d518631e05daa73a6a954817d5/validation-api-1.1.0.Final.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/com.fasterxml/classmate/1.3.1/2ad2fd09dcf5607ca96f8ef432096a96986c40a/classmate-1.3.1.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.8.1/4465fda9834ab27eac2a76f9a378738d15a9b4fa/jackson-annotations-2.8.1.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-core/2.8.1/fd13b1c033741d48291315c6370f7d475a42dccf/jackson-core-2.8.1.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework/spring-expression/4.3.2.RELEASE/7676acd4dde9d186b7f882edce3131dc62dcb590/spring-expression-4.3.2.RELEASE.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-classic/1.1.7/9865cf6994f9ff13fce0bf93f2054ef6c65bb462/logback-classic-1.1.7.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.slf4j/jul-to-slf4j/1.7.21/2f22c882ffa479d1e9ff4eb0e8e2c29f2a0871ed/jul-to-slf4j-1.7.21.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.slf4j/log4j-over-slf4j/1.7.21/b3700d97464d99bdcd42c0177d6e7951c94d75ff/log4j-over-slf4j-1.7.21.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/xml-apis/xml-apis/1.4.01/3789d9fada2d3d458c4ba2de349d48780f381ee3/xml-apis-1.4.01.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/ch.qos.logback/logback-core/1.1.7/7873092d39ef741575ca91378a6a21c388363ac8/logback-core-1.1.7.jar:/Users/administrator/.gradle/caches/modules-2/files-2.1/org.springframework.boot/spring-boot-devtools/1.4.0.RELEASE/fe0e362eade088680f8704b88d42a3b86a900552/spring-boot-devtools-1.4.0.RELEASE.jar com.pizza.backend.atb.AtbPizzaDemoApplication
+Successfully started process 'command '/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home/bin/java''
+
+  .   ____          _            __ _ _
+ /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+ \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+  '  |____| .__|_| |_|_| |_\__, | / / / /
+ =========|_|==============|___/=/_/_/_/
+ :: Spring Boot ::        (v1.4.0.RELEASE)
+
+2016-09-29 15:19:12.665 DEBUG 12190 --- [  restartedMain] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-29 15:19:12.668 DEBUG 12190 --- [  restartedMain] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-29 15:19:12.669 DEBUG 12190 --- [  restartedMain] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-29 15:19:12.669 DEBUG 12190 --- [  restartedMain] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-29 15:19:12.669 DEBUG 12190 --- [  restartedMain] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-29 15:19:12.707  INFO 12190 --- [  restartedMain] c.p.backend.atb.AtbPizzaDemoApplication  : Starting AtbPizzaDemoApplication on Nenad-Momcilovics-Macbook-Pro.local with PID 12190 (/Users/administrator/git/6-POC/ATB/atb-pizza-poc-server/backend/build/classes/main started by administrator in /Users/administrator/git/6-POC/ATB/atb-pizza-poc-server)
+2016-09-29 15:19:12.707  INFO 12190 --- [  restartedMain] c.p.backend.atb.AtbPizzaDemoApplication  : The following profiles are active: jenkins
+2016-09-29 15:19:12.764  INFO 12190 --- [  restartedMain] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5aad709d: startup date [Thu Sep 29 15:19:12 EDT 2016]; root of context hierarchy
+2016-09-29 15:19:13.954 DEBUG 12190 --- [  restartedMain] o.s.w.c.s.StandardServletEnvironment     : Adding [applicationConfig: [classpath:/application-jenkins.properties]] PropertySource with search precedence immediately lower than [applicationConfigurationProperties]
+2016-09-29 15:19:13.955 DEBUG 12190 --- [  restartedMain] o.s.w.c.s.StandardServletEnvironment     : Adding [applicationConfig: [classpath:/application.properties]] PropertySource with search precedence immediately lower than [applicationConfig: [classpath:/application-jenkins.properties]]
+2016-09-29 15:19:13.955 DEBUG 12190 --- [  restartedMain] o.s.w.c.s.StandardServletEnvironment     : Removing [applicationConfigurationProperties] PropertySource
+2016-09-29 15:19:13.955 DEBUG 12190 --- [  restartedMain] o.s.w.c.s.StandardServletEnvironment     : Removing [defaultProperties] PropertySource
+2016-09-29 15:19:14.044  INFO 12190 --- [  restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [class org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$5d1cc34d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2016-09-29 15:19:14.391  INFO 12190 --- [  restartedMain] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 8081 (http)
+2016-09-29 15:19:14.400  INFO 12190 --- [  restartedMain] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2016-09-29 15:19:14.401  INFO 12190 --- [  restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.5.4
+2016-09-29 15:19:14.460  INFO 12190 --- [ost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2016-09-29 15:19:14.460 DEBUG 12190 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Published root WebApplicationContext as ServletContext attribute with name [org.springframework.web.context.WebApplicationContext.ROOT]
+2016-09-29 15:19:14.460  INFO 12190 --- [ost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1699 ms
+2016-09-29 15:19:14.589  INFO 12190 --- [ost-startStop-1] c.p.backend.atb.filter.SimpleCORSFilter  : SimpleCORSFilter init
+2016-09-29 15:19:14.596 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-29 15:19:14.596 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-29 15:19:14.596 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-29 15:19:14.597 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-29 15:19:14.597 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-29 15:19:14.610 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-29 15:19:14.610 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-29 15:19:14.610 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-29 15:19:14.610 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-29 15:19:14.611 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-29 15:19:14.617 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-29 15:19:14.617 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-29 15:19:14.617 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-29 15:19:14.618 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-29 15:19:14.618 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-29 15:19:14.625 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletConfigInitParams] PropertySource with lowest search precedence
+2016-09-29 15:19:14.625 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [servletContextInitParams] PropertySource with lowest search precedence
+2016-09-29 15:19:14.625 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemProperties] PropertySource with lowest search precedence
+2016-09-29 15:19:14.626 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Adding [systemEnvironment] PropertySource with lowest search precedence
+2016-09-29 15:19:14.626 DEBUG 12190 --- [ost-startStop-1] o.s.w.c.s.StandardServletEnvironment     : Initialized StandardServletEnvironment with PropertySources [servletConfigInitParams,servletContextInitParams,systemProperties,systemEnvironment]
+2016-09-29 15:19:14.659  WARN 12190 --- [ost-startStop-1] .s.b.d.a.RemoteDevToolsAutoConfiguration : Listening for remote debug traffic on /.~~spring-boot!~/debug
+2016-09-29 15:19:14.669  WARN 12190 --- [ost-startStop-1] .s.b.d.a.RemoteDevToolsAutoConfiguration : Listening for remote restart updates on /.~~spring-boot!~/restart
+2016-09-29 15:19:14.679  INFO 12190 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'dispatcherServlet' to [/]
+2016-09-29 15:19:14.680  INFO 12190 --- [ost-startStop-1] o.s.b.w.servlet.ServletRegistrationBean  : Mapping servlet: 'webServlet' to [/h2-console/*]
+2016-09-29 15:19:14.682  INFO 12190 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'characterEncodingFilter' to: [/*]
+2016-09-29 15:19:14.682  INFO 12190 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2016-09-29 15:19:14.682  INFO 12190 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2016-09-29 15:19:14.682  INFO 12190 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'requestContextFilter' to: [/*]
+2016-09-29 15:19:14.683  INFO 12190 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'simpleCORSFilter' to: [/*]
+2016-09-29 15:19:14.683  INFO 12190 --- [ost-startStop-1] o.s.b.w.servlet.FilterRegistrationBean   : Mapping filter: 'remoteDevToolsDispatcherFilter' to: [/*]
+2016-09-29 15:19:14.715 DEBUG 12190 --- [  restartedMain] o.s.w.c.s.StandardServletEnvironment     : Replacing [servletContextInitParams] PropertySource with [servletContextInitParams]
+2016-09-29 15:19:14.860  INFO 12190 --- [  restartedMain] o.f.core.internal.util.VersionPrinter    : Flyway 4.0.3 by Boxfuse
+2016-09-29 15:19:14.965  INFO 12190 --- [  restartedMain] o.f.c.i.dbsupport.DbSupportFactory       : Database: jdbc:h2:~/test (H2 1.4)
+2016-09-29 15:19:15.007  INFO 12190 --- [  restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 1 migration (execution time 00:00.009s)
+2016-09-29 15:19:15.022  INFO 12190 --- [  restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "PUBLIC": 1
+2016-09-29 15:19:15.023  WARN 12190 --- [  restartedMain] ationConfigEmbeddedWebApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Schema "PUBLIC" contains a failed migration to version 1 !
+2016-09-29 15:19:15.032  INFO 12190 --- [  restartedMain] o.apache.catalina.core.StandardService   : Stopping service Tomcat
+2016-09-29 15:19:15.043  INFO 12190 --- [  restartedMain] utoConfigurationReportLoggingInitializer : 
+
+Error starting ApplicationContext. To display the auto-configuration report enable debug logging (start with --debug)
+
+
+2016-09-29 15:19:15.052 ERROR 12190 --- [  restartedMain] o.s.boot.SpringApplication               : Application startup failed
+
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'flywayInitializer' defined in class path resource [org/springframework/boot/autoconfigure/flyway/FlywayAutoConfiguration$FlywayConfiguration.class]: Invocation of init method failed; nested exception is org.flywaydb.core.api.FlywayException: Schema "PUBLIC" contains a failed migration to version 1 !
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1578) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:545) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:482) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:306) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:230) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:302) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:296) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:197) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.getBean(AbstractApplicationContext.java:1076) ~[spring-context-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:851) ~[spring-context-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:541) ~[spring-context-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.boot.context.embedded.EmbeddedWebApplicationContext.refresh(EmbeddedWebApplicationContext.java:122) ~[spring-boot-1.4.0.RELEASE.jar:1.4.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:759) [spring-boot-1.4.0.RELEASE.jar:1.4.0.RELEASE]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:369) [spring-boot-1.4.0.RELEASE.jar:1.4.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:313) [spring-boot-1.4.0.RELEASE.jar:1.4.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1185) [spring-boot-1.4.0.RELEASE.jar:1.4.0.RELEASE]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1174) [spring-boot-1.4.0.RELEASE.jar:1.4.0.RELEASE]
+	at com.pizza.backend.atb.AtbPizzaDemoApplication.main(AtbPizzaDemoApplication.java:10) [main/:na]
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:1.8.0_11]
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:1.8.0_11]
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:1.8.0_11]
+	at java.lang.reflect.Method.invoke(Method.java:483) ~[na:1.8.0_11]
+	at org.springsource.loaded.ri.ReflectiveInterceptor.jlrMethodInvoke(ReflectiveInterceptor.java:1426) [springloaded-1.2.6.RELEASE.jar:1.2.6.RELEASE]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) [spring-boot-devtools-1.4.0.RELEASE.jar:1.4.0.RELEASE]
+Caused by: org.flywaydb.core.api.FlywayException: Schema "PUBLIC" contains a failed migration to version 1 !
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:218) ~[flyway-core-4.0.3.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate$2.doInTransaction(DbMigrate.java:173) ~[flyway-core-4.0.3.jar:na]
+	at org.flywaydb.core.internal.util.jdbc.TransactionTemplate.execute(TransactionTemplate.java:72) ~[flyway-core-4.0.3.jar:na]
+	at org.flywaydb.core.internal.command.DbMigrate.migrate(DbMigrate.java:173) ~[flyway-core-4.0.3.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:959) ~[flyway-core-4.0.3.jar:na]
+	at org.flywaydb.core.Flyway$1.execute(Flyway.java:917) ~[flyway-core-4.0.3.jar:na]
+	at org.flywaydb.core.Flyway.execute(Flyway.java:1373) ~[flyway-core-4.0.3.jar:na]
+	at org.flywaydb.core.Flyway.migrate(Flyway.java:917) ~[flyway-core-4.0.3.jar:na]
+	at org.springframework.boot.autoconfigure.flyway.FlywayMigrationInitializer.afterPropertiesSet(FlywayMigrationInitializer.java:66) ~[spring-boot-autoconfigure-1.4.0.RELEASE.jar:1.4.0.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1637) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1574) ~[spring-beans-4.3.2.RELEASE.jar:4.3.2.RELEASE]
+	... 24 common frames omitted
+
+:backend:bootRun (Thread[Task worker Thread 3,5,main]) completed. Took 3.292 secs.
+:backend:runAll (Thread[Task worker Thread 6,5,main]) started.
+:backend:runAll
+Skipping task ':backend:runAll' as it has no actions.
+:backend:runAll (Thread[Task worker Thread 6,5,main]) completed. Took 0.0 secs.
+
+BUILD SUCCESSFUL
+
+Total time: 4.628 secs
+Stopped 0 compiler daemon(s).
+Received result Success[value=null] from daemon DaemonInfo{pid=12167, address=[626a3928-9958-4b7b-a396-0c2870959aa2 port:55334, addresses:[/0:0:0:0:0:0:0:1, /127.0.0.1]], idle=true, lastBusy=1475176725253, context=DefaultDaemonContext[uid=14026dac-72a0-4734-b9c5-f3ed80f0eb53,javaHome=/Library/Java/JavaVirtualMachines/jdk1.8.0_11.jdk/Contents/Home,daemonRegistryDir=/Users/administrator/.gradle/daemon,pid=12167,idleTimeout=10800000,daemonOpts=-XX:MaxPermSize=256m,-XX:+HeapDumpOnOutOfMemoryError,-Xmx1024m,-Dfile.encoding=UTF-8,-Duser.country=US,-Duser.language=en,-Duser.variant]} (build should be done).

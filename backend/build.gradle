@@ -12,7 +12,7 @@ buildscript {
 }
 
 plugins {
-    id "org.flywaydb.flyway" version "4.0.3"
+	id "org.flywaydb.flyway" version "4.0.3"
 }
 
 apply plugin: 'java'
@@ -27,16 +27,16 @@ repositories {
 
 eclipse {
 	classpath {
-		 containers.remove('org.eclipse.jdt.launching.JRE_CONTAINER')
-		 containers('org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8')
+		containers.remove('org.eclipse.jdt.launching.JRE_CONTAINER')
+		containers('org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8')
 	}
 }
 
 idea {
-    module {
-        inheritOutputDirs = false
-        outputDir = file("${buildDir}/classes/main/")
-    }
+	module {
+		inheritOutputDirs = false
+		outputDir = file("${buildDir}/classes/main/")
+	}
 }
 
 jar {
@@ -52,12 +52,13 @@ configurations {
 }
 
 dependencies {
+	compile('org.springframework.boot:spring-boot-starter-parent:1.4.1.RELEASE')
 	// flyway
-    compile("org.flywaydb:flyway-core:4.0.3")
+	compile("org.flywaydb:flyway-core:4.0.3")
 	//jdbc
-	compile('org.springframework.boot:spring-boot-starter-jdbc:1.4.0.RELEASE')
+	compile('org.springframework.boot:spring-boot-starter-jdbc:1.4.1.RELEASE')
 	//jpa
-	compile('org.springframework.boot:spring-boot-starter-data-jpa:1.4.0.RELEASE')
+	compile('org.springframework.boot:spring-boot-starter-data-jpa:1.4.1.RELEASE')
 	//posgress
 	compile ('org.postgresql:postgresql')
 	// spring
@@ -65,21 +66,27 @@ dependencies {
 	// google gson
 	compile('com.google.code.gson:gson:2.7')
 
-    compile('org.apache.commons:commons-lang3:3.4')
+	compile('org.apache.commons:commons-lang3:3.4')
 
 	// spring dev tools
 	dev('org.springframework.boot:spring-boot-devtools')
 
+	compile('org.springframework.cloud:spring-cloud-cloudfoundry-connector:1.2.3.RELEASE')
+	compile('org.springframework.cloud:spring-cloud-spring-service-connector:1.2.3.RELEASE')
+	compile('com.h2database:h2')
 	// testing
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+	testCompile('com.h2database:h2')
 }
 
 // run spring boot app
 bootRun {
 	//addResources = true
 	classpath = sourceSets.main.runtimeClasspath + configurations.dev
+	systemProperties = System.properties
 }
 
 // run all task
 task runAll {}
 runAll.dependsOn(bootRun)
+

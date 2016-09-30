@@ -47,10 +47,21 @@ public class OrderControllerTest {
     @Test
     public void shouldReturn200Ok_whenOrdersFound() throws Exception {
 
+        String name = new Date().toString();
+
+        OrderDetail orderDetail = new OrderDetail();
+        orderDetail.setUserId(TEST_USER_ID);
+        orderDetail.setPremadeName(name);
+
+        this.mockMvc.perform(post("/order")
+                .content(new ObjectMapper().writeValueAsString(orderDetail))
+                .header("Content-Type", MediaType.APPLICATION_JSON.toString()))
+                .andExpect(status().isOk());
+
+
         this.mockMvc.perform(get("/getOrders/" + TEST_USER_ID))
                 .andDo(print())
                 .andExpect(status().isOk())
-
                 .andExpect(jsonPath("$.[0].orderId").exists())
                 .andExpect(jsonPath("$.[0].userId").value("test"))
                 .andExpect(jsonPath("$.[0].orderDetail.premadeName").value("Dutch Delight"))

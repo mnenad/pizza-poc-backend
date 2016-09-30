@@ -4,8 +4,10 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.pizza.backend.atb.premade.OrderDetail;
 import org.apache.commons.lang3.builder.ReflectionToStringBuilder;
 
+import java.io.Serializable;
+
 @JsonIgnoreProperties(ignoreUnknown = true)
-public class OrderDto {
+public class OrderDto implements Serializable{
 
     private Integer orderId;
 

@@ -1,8 +1,8 @@
 ---
 applications:
-- name: atbpizzabackend-test
+- name: atbpizzabackend-dev
   memory: 1G
-  host: atbpizzabackend-test
+  host: atbpizzabackend-dev
   domain: cfapps.io
   path: build/libs/spring-boot-angular2-1.0.2.jar
   services:

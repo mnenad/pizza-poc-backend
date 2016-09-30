@@ -6,5 +6,5 @@ public class Meat {
     public static final String BACON = "Bacon";
     public static final String CHICKEN = "Chicken";
     public static final String HAM = "Ham";
-    public static final String ITALIANSAUSAGE ="ItalianSausage";
+    public static final String ITALIANSAUSAGE ="Italian Sausage";
 }
